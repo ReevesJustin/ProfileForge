@@ -3,7 +3,7 @@
 **Automated Bullet Dimensioning Tool**  
 Fully AI-powered, zero-manual-click extraction of precise bullet geometry from side-profile photos — replicating Applied Ballistics laboratory measurements.
 
-OgiveAI takes a single high-quality photo of a rifle bullet held vertically in locked digital calipers and automatically outputs lab-grade dimensions including Total Length, Ogive Radius (R), Tangent Radius (Rt), Rt/R ratio, bearing surface length, boattail geometry, and more — with target repeatability matching or approaching Applied Ballistics published tolerances (±0.002" for lengths, ±0.03 cal for ogive radius, ±0.004 for Rt/R).
+OgiveAI takes a single high-quality photo of a rifle bullet held vertically in locked digital calipers and automatically outputs lab-grade dimensions including Total Length, Ogive Radius (R), Tangent Radius (Rt), Rt/R ratio, bearing surface length, boattail geometry, and more — with target repeatability matching or approaching Applied Ballistics published tolerances (±0.002" for lengths, ±0.03 cal for ogive radius, ±0.004 for Rt/R). Ultimately a to scale dimensioned diagram and Rt/R of the bullet would be produced imitating the AB library example.
 
 ## Project Goal
 

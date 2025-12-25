@@ -1,9 +1,9 @@
-# OgiveAI
-**OgiveAI** – Bringing laboratory-grade bullet profiling to the reloading bench.
+# ProfileForge
+**ProfileForge** – Bringing laboratory-grade bullet profiling to the reloading bench.
 **Automated Bullet Dimensioning Tool**  
 Fully AI-powered, zero-manual-click extraction of precise bullet geometry from side-profile photos — replicating Applied Ballistics laboratory measurements.
 
-OgiveAI takes a single high-quality photo of a rifle bullet held vertically in locked digital calipers and automatically outputs lab-grade dimensions including Total Length, Ogive Radius (R), Tangent Radius (Rt), Rt/R ratio, bearing surface length, boattail geometry, and more — with target repeatability matching or approaching Applied Ballistics published tolerances (±0.002" for lengths, ±0.03 cal for ogive radius, ±0.004 for Rt/R). Ultimately a to scale dimensioned diagram and Rt/R of the bullet would be produced imitating the AB library example.
+ProfileForge takes a single high-quality photo of a rifle bullet held vertically in locked digital calipers and automatically outputs lab-grade dimensions including Total Length, Ogive Radius (R), Tangent Radius (Rt), Rt/R ratio, bearing surface length, boattail geometry, and more — with target repeatability matching or approaching Applied Ballistics published tolerances (±0.002" for lengths, ±0.03 cal for ogive radius, ±0.004 for Rt/R). Ultimately a to scale dimensioned diagram and Rt/R of the bullet would be produced imitating the AB library example.
 
 ## Project Goal
 
@@ -80,7 +80,7 @@ boattail-heel-minor-left,flat base diameter (very bottom face) — left edge
 boattail-heel-minor-right,flat base diameter — right edge
 
 ## Project Structure
-~/projects/OgiveAI/
+~/projects/ProfileForge/
 ├── data/
 │   ├── images/              # Raw input photos
 │   └── processed/           # Optional: masks, annotated outputs
@@ -183,12 +183,12 @@ Areas needed:
 
 ---
 
-**OgiveAI** – Bringing laboratory-grade bullet profiling to the reloading bench.
+**ProfileForge** – Bringing laboratory-grade bullet profiling to the reloading bench.
 
 
-Example reference photo in ~/projects/OgiveAI/data/images/264cal140Hornady140ELDM_AB.jpg
+Example reference photo in ~/projects/ProfileForge/data/images/264cal140Hornady140ELDM_AB.jpg
 
-Example sample test photo in ~/projects/OgiveAI/data/images/264calHornady140ELDM.jpg
+Example sample test photo in ~/projects/ProfileForge/data/images/264calHornady140ELDM.jpg
 
 photos provided by iphone 17, at a fixed distance with the bullet held base to tip in the jaws with dimension in image.  Bullet diamter is known, providing 2 visual references.  
 rt/r is the ratio of tangent ogive radius (Rt) to actual ogive radius (R), quantifying secant-ness (1.0 = tangent; 0.5 = fully secant; hybrids in between). Per Bryan Litz's Applied Ballistics.

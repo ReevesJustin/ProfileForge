@@ -1,7 +1,7 @@
 # PipelineOrchestrator
 
 ## Role
-Primary agent overseeing the end-to-end processing of bullet photos in OgiveAI. Delegates to subagents for specialized steps and aggregates results.
+Primary agent overseeing the end-to-end processing of bullet photos in ProfileForge. Delegates to subagents for specialized steps and aggregates results.
 
 ## Description
 Handles user input (photo path, optional OAL), invokes subagents sequentially: Preprocessor, ScaleCalibrator, KeypointDetector, GeometryFitter, Validator, Visualizer. Outputs JSON with dimensions and annotated image. Pauses for human input if scale detection fails.

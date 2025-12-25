@@ -108,6 +108,31 @@ The goal is to duplicate the bullet dimensions and Rt/R values provided by Appli
 
 All dependencies installable via `pip` – no proprietary software.
 
+## Setup Instructions
+
+### Install Dependencies
+Run the following commands to set up the environment:
+
+```bash
+# Install Python dependencies
+pip install opencv-python numpy scipy ultralytics easyocr torch torchvision
+
+# Optional: for dataset management
+pip install label-studio roboflow
+
+# Clone or download OpenCode framework (assuming it's available)
+# Follow opencode.ai docs for installation
+```
+
+### Model Downloads
+- Download pre-trained YOLOv8-pose model or train your own (see training script below).
+- Place models in `models/` directory, e.g., `yolo_bullet_pose.pt`.
+
+### Run Prototype
+```bash
+python src/pipeline.py --image data/images/hornady_140eldm.jpg --oal 1.380
+```
+
 ## Development Pipeline
 
 1. **Preprocessing**  
